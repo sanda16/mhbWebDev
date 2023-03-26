@@ -814,9 +814,9 @@ section {
   opacity: 0;
 }
 
-.portfolio .portfolio-wrap img {
+/* .portfolio .portfolio-wrap img {
   transition: all ease-in-out 0.3s;
-}
+} */
 
 .portfolio .portfolio-wrap .portfolio-info {
   opacity: 0;
@@ -862,21 +862,21 @@ section {
   transition: 0.3s;
 }
 
-.portfolio .portfolio-wrap .portfolio-links a:hover {
+/* .portfolio .portfolio-wrap .portfolio-links a:hover {
   color: #ffc451;
-}
+} */
 
-.portfolio .portfolio-wrap:hover::before {
+/* .portfolio .portfolio-wrap:hover::before {
   opacity: 1;
 }
 
 .portfolio .portfolio-wrap:hover img {
   transform: scale(1.2);
-}
+} */
 
-.portfolio .portfolio-wrap:hover .portfolio-info {
+/* .portfolio .portfolio-wrap:hover .portfolio-info {
   opacity: 1;
-}
+} */
 
 /*--------------------------------------------------------------
 # Portfolio Details
