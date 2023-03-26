@@ -447,9 +447,38 @@
       </div>
     </div>
 
-  <div id="preloader"></div>
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <script>
+    
+    document.addEventListener('DOMContentLoaded', function() {
 
+    
+    var links = document.getElementsByTagName('a');
+
+    
+    for (var i = 0; i < links.length; i++) {
+
+      links[i].addEventListener('click', function(event) {
+
+        
+        var targetSectionId = event.target.getAttribute('href').substring(1);
+
+        
+        var targetSection = document.getElementById(targetSectionId);
+
+        
+        targetSection.scrollIntoView({ behavior: 'smooth' });
+
+        
+        event.preventDefault();
+
+      });
+
+    }
+
+    });
+
+
+  </script>
   <!-- Vendor JS Files -->
   <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
